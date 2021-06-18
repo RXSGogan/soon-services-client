@@ -1,20 +1,20 @@
 @font-face {
-    src: url(/fonts/Maxeville\ Bold.otf);
+    src: url(./fonts/Maxeville\ Bold.otf);
     font-family: Maxeville-Bold;
   }
   
   @font-face {
-    src: url(/fonts/Maxeville\ Regular.otf);
+    src: url(./fonts/Maxeville\ Regular.otf);
     font-family: Maxeville-Regular;
   }
   
   @font-face {
-    src: url(/fonts/Maxeville\ Regular\ Italic.otf);
+    src: url(./fonts/Maxeville\ Regular\ Italic.otf);
     font-family: Maxeville-Italic;
   }
   
   @font-face {
-    src: url(/fonts/Rhymes-RegularDisplay.otf);
+    src: url(./fonts/Rhymes-RegularDisplay.otf);
     font-family: Rhymes-Regular;
   }
 
