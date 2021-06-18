@@ -1,15 +1,15 @@
 @font-face {
-    src: url(./fonts/Maxeville\ Bold.otf);
+    src: url(./fonts/Maxeville_Bold.otf);
     font-family: Maxeville-Bold;
   }
   
   @font-face {
-    src: url(./fonts/Maxeville\ Regular.otf);
+    src: url(./fonts/Maxeville_Regular.otf);
     font-family: Maxeville-Regular;
   }
   
   @font-face {
-    src: url(./fonts/Maxeville\ Regular\ Italic.otf);
+    src: url(./fonts/Maxeville_Regular_Italic.otf);
     font-family: Maxeville-Italic;
   }
   

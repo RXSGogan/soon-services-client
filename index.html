@@ -60,7 +60,7 @@
         document.querySelector(".video2").addEventListener("touchend", hideVideo);
 
         function hoverVideo(e) {  
-            console.log("hover over");
+            // console.log("hover over");
             document.querySelector('.thevideo').style.visibility = "visible"; 
             document.querySelector('.thevideo').play();
             document.querySelector('.logo-1').style.color = "#ffffff"; 
@@ -69,7 +69,7 @@
         }
 
         function hideVideo(e) {
-            console.log("hover off");
+            // console.log("hover off");
             document.querySelector('.thevideo').pause(); 
             document.querySelector('.thevideo').style.visibility = "hidden";
             document.querySelector('.logo-1').style.color = "#000000";
@@ -89,29 +89,29 @@
         document.querySelector('.logo-1').addEventListener("touchend", hideQuote);
 
         function hoverQuote(e) {
-            console.log("quote on");
+            // console.log("quote on");
             document.querySelector('.quotes').style.display = "block";
             document.querySelector('.quotes').style.zIndex = "2";
         }
 
         function hideQuote(e) {
-            console.log("quote off");
+            // console.log("quote off");
             document.querySelector('.quotes').style.display = "";
         }
     </script>
 
-    <script>
+    <!-- <script>
       document.querySelector(".logo-3").addEventListener("mouseover", emailHover);
       document.querySelector(".logo-3").addEventListener("mouseout", emailUnHover);
 
       function emailHover(e) {
-        console.log("emailon")
+        // console.log("emailon")
         document.querySelector('logo-3').style.textColor = "#d3401e";
       }
 
       function emailUnHover(e) {
-        console.log("emailoff")
+        // console.log("emailoff")
       }
-    </script>
+    </script> -->
 </body>
 </html>
