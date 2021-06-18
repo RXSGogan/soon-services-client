@@ -1,0 +1,206 @@
+@font-face {
+    src: url(/fonts/Maxeville\ Bold.otf);
+    font-family: Maxeville-Bold;
+  }
+  
+  @font-face {
+    src: url(/fonts/Maxeville\ Regular.otf);
+    font-family: Maxeville-Regular;
+  }
+  
+  @font-face {
+    src: url(/fonts/Maxeville\ Regular\ Italic.otf);
+    font-family: Maxeville-Italic;
+  }
+  
+  @font-face {
+    src: url(/fonts/Rhymes-RegularDisplay.otf);
+    font-family: Rhymes-Regular;
+  }
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  cursor: url("./images/cursor_PNG102-ORANGE-2.png"), auto;
+}
+
+.my-container {
+  height: 100vh;
+}
+
+.my-row {
+  height: 94vh;
+}
+
+.thevideo {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.quotes {
+  position: absolute;
+  z-index: -2;
+  color: #d3401e;
+  opacity: 1;
+  overflow: hidden;
+  width: 100%;
+  max-height: 100%;
+  top: 57%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-family: Rhymes-Regular;
+  padding: 4vw;
+  display: none;
+}
+
+.quotes-2 {
+  font-family: Maxeville-Bold;
+  font-size: 1.1vw;
+}
+
+.quotes-3 {
+  font-size: 2.7vw;
+}
+
+div a:link {
+  color: black;
+  text-decoration: none;
+}
+div a:visited {
+  text-decoration: none;
+}
+div a:hover {
+  color: #d3401e;
+  text-decoration: none;
+}
+div a:active {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .video2 {
+    background-image: url("/images/Soon_Logo_Homepage_Black_60.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .video2:hover {
+    background-image: url("/images/Soon_Logo_Homepage_White_60.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+    height: 100px;
+  }
+
+  .logo-1 {
+    opacity: 0;
+  }
+
+  .logo-2 {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Maxeville-Regular;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+
+  .logo-3 {
+      display: inline-block;
+      text-align: right;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      font-family: Rhymes-Regular;
+      margin-bottom: 20px;
+      margin-right: 30px;
+      text-align: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .video2 {
+    background-image: url("/images/Soon_Logo_Homepage_Black_25.png");
+    background-repeat: no-repeat;
+    height: 250px; 
+    margin-left: 25px;
+    margin-top: 300px;
+    opacity: 1;
+  }
+
+  .video2:hover {
+    background-image: url("/images/Soon_Logo_Homepage_White_25.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .logo-1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Maxeville-Regular;
+    font-size: 12px;
+  }
+
+  .logo-2 {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Maxeville-Regular;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    text-align: left;
+}
+
+  .logo-3 {
+      display: inline-block;
+      text-align: right;
+      margin-right: 20px;
+      font-family: Rhymes-Regular;
+      font-size: 12px;
+      margin-bottom: 20px;
+      align-self: flex-end;
+      text-align: right;
+  }
+
+  .quotes {
+    position: absolute;
+    z-index: -2;
+    color: #d3401e;
+    opacity: 1;
+    overflow: hidden;
+    width: 100%;
+    max-height: 100%;
+    top: 51%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-family: Rhymes-Regular;
+    padding: 6vw;
+    display: none;
+  }
+
+  .quotes-2 {
+    font-family: Maxeville-Bold;
+    font-size: 3.5vw;
+    margin-bottom: 8vw;
+  }
+
+  .quotes-3 {
+    font-size: 6.5vw;
+  }
+}
