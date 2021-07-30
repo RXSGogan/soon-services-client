@@ -56,8 +56,8 @@
     <script>
         document.querySelector(".video2").addEventListener("mouseover", hoverVideo);
         document.querySelector(".video2").addEventListener("mouseout", hideVideo);
-        document.querySelector(".video2").addEventListener("touchstart", hoverVideo);
-        document.querySelector(".video2").addEventListener("touchend", hideVideo);
+        document.querySelector(".video2").addEventListener("touchstart", touchStart);
+        document.querySelector(".video2").addEventListener("touchend", touchEnd);
 
         function hoverVideo(e) {  
             // console.log("hover over");
@@ -72,6 +72,25 @@
             // console.log("hover off");
             document.querySelector('.thevideo').pause(); 
             document.querySelector('.thevideo').style.visibility = "hidden";
+            document.querySelector('.logo-1').style.color = "#000000";
+            document.querySelector('.logo-2').style.color = "#000000";
+            document.querySelector('#email').style.color = "#000000";
+        }
+
+        function touchStart(e) {
+            e.preventDefault();
+            document.querySelector('.thevideo').style.visibility = "visible"; 
+            document.querySelector('.thevideo').play();
+            document.querySelector('.video2').style.visibility = "hidden";
+            document.querySelector('.logo-1').style.color = "#ffffff"; 
+            document.querySelector('.logo-2').style.color = "#ffffff";
+            document.querySelector('#email').style.color = "#ffffff";
+        }
+
+        function touchEnd(e) {
+            document.querySelector('.thevideo').pause(); 
+            document.querySelector('.thevideo').style.visibility = "hidden";
+            document.querySelector('.video2').style.visibility = "visible";
             document.querySelector('.logo-1').style.color = "#000000";
             document.querySelector('.logo-2').style.color = "#000000";
             document.querySelector('#email').style.color = "#000000";
