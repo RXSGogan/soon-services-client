@@ -18,19 +18,19 @@
     font-family: Rhymes-Regular;
   }
 
-html,
 body {
   margin: 0;
-  height: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   cursor: url("./images/cursor_PNG102-ORANGE-2.png"), auto;
 }
 
-.my-container {
-  height: 100vh;
+html {
+  height: -webkit-fill-available;
 }
 
 .my-row {
-  height: 94vh;
+  height: 88vh;
 }
 
 .thevideo {
