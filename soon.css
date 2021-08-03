@@ -37,6 +37,10 @@ html {
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+.my-row {
+  height: 88vh;
+}
+
 .thevideo {
   max-width: 100%;
   max-height: 100%;
